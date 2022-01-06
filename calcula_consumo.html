@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álcool ou Gasolina</title>
+</head>
+<body>
+    <h3>Álcool ou Gasolina</h3>
+    <p>1 - Crie um novo arquivo, chame-o de calcula_consumo.html e armazene-o dentro da pasta logica.<br>
+        Não esqueça da estrutura mínima que devemos ter para cada um dos novos programas.<p>
+    
+        <p>2 - No mundo HTML adicione um título com o seguinte conteúdo: Álcool ou Gasolina?.<br>
+        Salve o programa e abra-o no navegador.<p>
+    
+        <p>3 - Problema: Seu carro tem um tanque de 40 litros.<br>
+        Com gasolina e usando todo o tanque você fez um caminhoComGasolina de 480 quilômetros.<br>
+        Qual é o consumoDeGasolina? Para calculá-lo, divida a distância percorrida pela quantidade de litros gastos.<br>
+        Imprima o valor utilizando document.write. Organize as contas em variáveis.<p>
+    
+        <p>4 - Com álcool, um tanque de 40 litros fez um caminhoComAlcool de 300 quilômetros.<br>
+        Qual é o consumoDeAlcool?<p><br>
+    
+</body>
+<script>
+    var tanque = 40;
+    var distancia = 480;
+    var litros = distancia / tanque;
+    document.write("A resposta é: <br>")
+    document.write("O consumo é de " + litros + " litros por Km com gasolina<br>")
+    tanque = 40;
+    distancia = 300;
+    litros = distancia / tanque
+    document.write("E de " + litros + " litros por Km com álcool")
+</script>
+</html>

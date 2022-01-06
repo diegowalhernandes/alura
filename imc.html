@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>IMC</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+
+
+
+</body>
+<script>
+	function pulaLinha(){
+		document.write("<br><hr><br>");
+	}
+	function print(frase){
+		document.write(frase);
+		pulaLinha()
+	}
+	var nome = prompt("Nome: ")
+	var altura = prompt("Altura: ")
+	var peso = prompt("Peso: ")
+	var imc = peso/(altura*altura)
+	print(nome + " seu IMC é " + Math.round(imc))
+</script>
+</html>

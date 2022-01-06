@@ -1,0 +1,22 @@
+<meta charset="utf8">
+
+<script>
+	function pulaLinha() {
+		document.write("<br><hr><br>")
+	}
+	
+	function print(frase) {
+		document.write(frase)
+		pulaLinha()
+	}	
+
+	idade = parseInt(prompt("Qual a sua idade? "))
+	temCarteira = prompt("Tem carteira? Responda S ou N.toLowerCase");
+	if (idade >= 18 && temCarteira == "S") {
+		print("Pode dirigir! ")
+	}
+	else {
+		print("Não pode dirigir! ")
+	}
+	
+</script>

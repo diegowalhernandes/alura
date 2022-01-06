@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<script>
+
+	var login = "diego";
+	var senha = "2022";
+
+	var maximoTentativas = 3;
+	var tentativaAtual = 1;
+
+	while(tentativaAtual <= maximoTentativas) {
+
+		var loginInformado = prompt("Login");
+		var senhaInformada = prompt("Senha");
+	
+		if(login == loginInformado && senha == senhaInformada) {
+			alert("Bem-Vindo ao sistema " + loginInformado);
+		
+			tentativaAtual = maximoTentativas;
+		}
+		
+		else {
+			if (tentativaAtual == 3) {
+				alert("Login inválido. Tente novamente");
+				contador = contador + 1
+			}	
+	
+		}
+	}
+	
+</script>
